@@ -33,6 +33,7 @@ void insertAtspecefic(node*&head,int data,int position){
     n->next->prev=temp;
     n->next=temp;
     temp->prev=n;
+    
 }
 
 int main(){
